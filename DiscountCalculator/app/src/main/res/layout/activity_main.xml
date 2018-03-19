@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.otabekkurbonov.discountcalculator.MainActivity"
+    >
+
+
+
+    <TableLayout
+        android:id="@+id/TableLayoutTop"
+        android:stretchColumns="*"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/totalPriceGoesHere"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp">
+
+        <TableRow
+            android:id="@+id/TableRow01Top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <Button
+                android:text="@string/fivePercentDiscountTopRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fivePercentDiscount"
+                android:onClick="fivePercentClick"
+                style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:text="@string/tenPercentDiscountTopRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tenPercentDiscount"
+                android:onClick="tenPercentClick"
+                style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:text="@string/fiveTeenPercentDiscountTopRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fiveTeenPercentDiscount"
+                android:onClick="fiveTeenPercentClick"
+                style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:text="@string/twentyPercentDiscountTopRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/twentyPercentDiscount"
+                android:onClick="twentyPercentClick"
+                style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/TableRow02Top"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+
+            >
+            <Button
+                android:text="@string/twentyFivePercentDiscountTopRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/twentyFivePercentDiscount"
+                android:onClick="twentyFivePercentClick"
+                style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:text="@string/thirtyPercentDiscountTopRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/thirtyPercentDiscount"
+                android:onClick="thirtyPercentPercentClick"
+                style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:text="@string/thirtyFivePercentDiscount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/thirtyFivePercentDiscount"
+                android:onClick="thirtyFivePercentClick"
+                style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:text="@string/fortyPercentDiscount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fortyPercentDiscount"
+                android:onClick="fortyPercentClick"
+                style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/TableRow03Top"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            >
+            <Button
+                android:text="@string/fortyFivePercentDiscountTopRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fortyFivePercentDiscount"
+                android:onClick="fortyFivePercentClick"
+                style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:text="@string/fiftyPercentDiscountTopRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fiftyPercentDiscount"
+                android:onClick="fiftyPercentClick"
+                style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:text="@string/fiftyFivePercentDiscountTopRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fiftyFivePercentDiscount"
+                android:onClick="fiftyFivePercentClick"
+                style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:text="@string/sixtyPercentDiscountTopRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sixtyPercentDiscount"
+                android:onClick="sixtyPercentClick"
+                style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/TableRow04Top"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            >
+
+            <Button
+            android:text="@string/sixtyFivePercentDiscountTopRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sixtyFivePercentDiscount"
+            android:onClick="sixtyFivePercentClick"
+            style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+            />
+
+            <Button
+                android:text="@string/seventyPercentDiscountTopRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/seventyPercentDiscount"
+                android:onClick="seventyPercentClick"
+                style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:text="@string/seventyFivePercentDiscountTopRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/seventyFivePercentDiscount"
+                android:onClick="seventyFivePercentClick"
+                style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:text="@string/eightyPercentDiscountTopRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eightyPercentDiscount"
+                android:onClick="eightyPercentClick"
+                style="@style/makeButtonSmall"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+
+        </TableRow>
+        </TableLayout>
+
+        <!-- From This point On It Is Bottom Row Bottons TODO: Fix it so that it goes on bottom portion !!!!-->
+
+        <TableLayout
+
+            android:stretchColumns="*"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_below="@+id/manuallyEnteringTaxPercent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="17dp"
+
+            >
+
+            <TableRow
+                android:id="@+id/TableRow01Bot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <Button
+                    android:text="@string/fivePercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fivePercentDiscountBotRow"
+                    android:onClick="fivePercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:text="@string/tenPercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tenPercentDiscountBotRow"
+                    android:onClick="tenPercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:text="@string/fiveTeenPercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fiveTeenPercentDiscountBotRow"
+                    android:onClick="fiveTeenPercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:text="@string/twentyPercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/twentyPercentDiscountBotRow"
+                    android:onClick="twentyPercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRow02Bot"
+                android:layout_width="fill_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+
+                >
+
+                <Button
+                    android:text="@string/twentyFivePercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/twentyFivePercentDiscountBotRow"
+                    android:onClick="twentyFivePercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:text="@string/thirtyPercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/thirtyPercentDiscountBotRow"
+                    android:onClick="thirtyPercentPercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:text="@string/thirtyFivePercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/thirtyFivePercentDiscountBotRow"
+                    android:onClick="thirtyFivePercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:text="@string/fortyPercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fortyPercentDiscountBotRow"
+                    android:onClick="fortyPercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+
+                    />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/TableRow03Bot"
+                android:layout_width="fill_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                >
+
+                <Button
+                    android:text="@string/fortyFivePercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fortyFivePercentDiscountBotRow"
+                    android:onClick="fortyFivePercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+                <Button
+                    android:text="@string/fiftyPercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fiftyPercentDiscountBotRow"
+                    android:onClick="fiftyPercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:text="@string/fiftyFivePercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fiftyFivePercentDiscountBotRow"
+                    android:onClick="fiftyFivePercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:text="@string/sixtyPercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sixtyPercentDiscountBotRow"
+                    android:onClick="sixtyPercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/TableRow04Bot"
+                android:layout_width="fill_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+
+                >
+
+            <Button
+                    android:text="@string/sixtyFivePercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sixtyFivePercentDiscountBotRow"
+                    android:onClick="sixtyFivePercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:text="@string/seventyPercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/seventyPercentDiscountBotRow"
+                    android:onClick="seventyPercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:text="@string/seventyFivePercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/seventyFivePercentDiscountBotRow"
+                    android:onClick="seventyFivePercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+                <Button
+                    android:text="@string/eightyPercentDiscountBotRow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eightyPercentDiscountBotRow"
+                    android:onClick="eightyPercentClickBotRow"
+                    style="@style/makeButtonSmall"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/outComeOfAll"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:clickable="false"
+
+
+        android:layout_alignTop="@+id/calc"
+        android:layout_alignLeft="@+id/manuallyEnteringTaxPercent"
+        android:layout_alignStart="@+id/manuallyEnteringTaxPercent"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="19sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/manuallyEnteringTaxPercent"
+        android:hint="@string/taxRateEditBoxNumber"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/TableLayoutTop"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/taxPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/taxPercent"
+        android:textSize="14sp"
+        android:layout_alignBaseline="@+id/manuallyEnteringTaxPercent"
+        android:layout_alignBottom="@+id/manuallyEnteringTaxPercent"
+        android:layout_toLeftOf="@+id/totalPriceGoesHere"
+        android:layout_toStartOf="@+id/totalPriceGoesHere" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/totalPriceGoesHere"
+        android:hint="@string/originalPriceEditBoxNumber"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColorLink="@android:color/holo_red_light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/originalPrice"
+        android:id="@+id/originalPrice"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/totalPriceGoesHere"
+        android:layout_alignBottom="@+id/totalPriceGoesHere"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calc"
+        android:onClick="onClick"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/outComeOfAll"
+        android:layout_toStartOf="@+id/outComeOfAll"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>

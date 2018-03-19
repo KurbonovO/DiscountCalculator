@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Discount Calculator</string>
+    <string name="taxRateEditBoxNumber">State Tax Rate</string>
+    <string name="originalPriceEditBoxNumber">Original Price</string>
+    <string name="originalPrice">Original Price</string>
+    <string name="taxPercent">Tax %</string>
+    <string name="clear">Clear</string>
+
+    <string name="action_bar_clear">CE</string>
+
+    <string name="calc">calculate</string>
+
+    //Top row
+    <string name="fivePercentDiscountTopRow">5%</string>
+    <string name="tenPercentDiscountTopRow">10%</string>
+    <string name="fiveTeenPercentDiscountTopRow">15%</string>
+    <string name="twentyPercentDiscountTopRow">20%</string>
+    <string name="twentyFivePercentDiscountTopRow">25%</string>
+    <string name="thirtyPercentDiscountTopRow">30%</string>
+    <string name="thirtyFivePercentDiscount">35%</string>
+    <string name="fortyPercentDiscount">40%</string>
+    <string name="fortyFivePercentDiscountTopRow">45%</string>
+    <string name="fiftyPercentDiscountTopRow">50%</string>
+    <string name="fiftyFivePercentDiscountTopRow">55%</string>
+    <string name="sixtyPercentDiscountTopRow">60%</string>
+    <string name="sixtyFivePercentDiscountTopRow">65%</string>
+    <string name="seventyPercentDiscountTopRow">70%</string>
+    <string name="seventyFivePercentDiscountTopRow">75%</string>
+    <string name="eightyPercentDiscountTopRow">80%</string>
+
+    // bot row
+    <string name="fivePercentDiscountBotRow">5%</string>
+    <string name="tenPercentDiscountBotRow">10%</string>
+    <string name="fiveTeenPercentDiscountBotRow">15%</string>
+    <string name="twentyPercentDiscountBotRow">20%</string>
+    <string name="twentyFivePercentDiscountBotRow">25%</string>
+    <string name="thirtyPercentDiscountBotRow">30%</string>
+    <string name="thirtyFivePercentDiscountBotRow">35%</string>
+    <string name="fortyPercentDiscountBotRow">40%</string>
+    <string name="fortyFivePercentDiscountBotRow">45%</string>
+    <string name="fiftyPercentDiscountBotRow">50%</string>
+    <string name="fiftyFivePercentDiscountBotRow">55%</string>
+    <string name="sixtyPercentDiscountBotRow">60%</string>
+    <string name="sixtyFivePercentDiscountBotRow">65%</string>
+    <string name="seventyPercentDiscountBotRow">70%</string>
+    <string name="seventyFivePercentDiscountBotRow">75%</string>
+    <string name="eightyPercentDiscountBotRow">80%</string>
+
+</resources>
+

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_clearAtActionBar"
+        android:icon="@drawable/ic_actionbar_clear_trial4"
+        android:title="@string/action_bar_clear"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="100"
+
+    />
+</menu>
